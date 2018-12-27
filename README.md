@@ -1,4 +1,4 @@
-# cupertino_localizations
+# flutter_cupertino_localizations
 
 provider localization for cupertino.
 just en and zh, because others is not finished yet.
