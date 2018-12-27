@@ -2503,17 +2503,17 @@ class CupertinoLocalizationZh extends GlobalCupertinoLocalizations {
 
   @override
   String timerPickerHourLabel(int hour) {
-    return "$timerPickerHour(hour)时";
+    return timerPickerHour(hour) + "时";
   }
 
   @override
   String timerPickerMinuteLabel(int minute) {
-    return "$timerPickerMinute(minute)分";
+    return timerPickerMinute(minute) + "分";
   }
 
   @override
   String timerPickerSecondLabel(int second) {
-    return "$timerPickerSecond(second)秒";
+    return timerPickerSecond(second) + "秒";
   }
 }
 
@@ -2543,17 +2543,17 @@ class CupertinoLocalizationZhHantHk extends CupertinoLocalizationZhHant {
 
   @override
   String timerPickerHourLabel(int hour) {
-    return "$timerPickerHour(hour)時";
+    return timerPickerHour(hour) + "時";
   }
 
   @override
   String timerPickerMinuteLabel(int minute) {
-    return "$timerPickerMinute(minute)分";
+    return timerPickerMinute(minute) + "分";
   }
 
   @override
   String timerPickerSecondLabel(int second) {
-    return "$timerPickerSecond(second)秒";
+    return timerPickerSecond(second) + "秒";
   }
 }
 
@@ -2573,17 +2573,17 @@ class CupertinoLocalizationZhHantTw extends CupertinoLocalizationZhHant {
 
   @override
   String timerPickerHourLabel(int hour) {
-    return "$timerPickerHour(hour)時";
+    return timerPickerHour(hour) + "時";
   }
 
   @override
   String timerPickerMinuteLabel(int minute) {
-    return "$timerPickerMinute(minute)分";
+    return timerPickerMinute(minute) + "分";
   }
 
   @override
   String timerPickerSecondLabel(int second) {
-    return "$timerPickerSecond(second)秒";
+    return timerPickerSecond(second) + "秒";
   }
 }
 
