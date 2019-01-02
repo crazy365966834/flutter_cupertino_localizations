@@ -2,7 +2,7 @@ name: flutter_cupertino_localizations
 description: flutter_cupertino_localizations
 version: 1.0.0
 author: cRazyx <crz365966834@qq.com>
-homepage: https://github.com/crazy365966834/flutter_commons_lang
+homepage: https://github.com/crazy365966834/flutter_cupertino_localizations
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
