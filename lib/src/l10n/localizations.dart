@@ -2492,6 +2492,21 @@ class CupertinoLocalizationZh extends GlobalCupertinoLocalizations {
   DatePickerDateTimeOrder get datePickerDateTimeOrder => DatePickerDateTimeOrder.date_time_dayPeriod;
 
   @override
+  String datePickerYear(int yearIndex) {
+    return "$yearIndex年";
+  }
+
+  @override
+  String datePickerMonth(int monthIndex) {
+    return "$monthIndex月";
+  }
+
+  @override
+  String datePickerDayOfMonth(int dayIndex) {
+    return "$dayIndex日";
+  }
+
+  @override
   String datePickerHourSemanticsLabel(int hour) {
     return "$hour时";
   }
