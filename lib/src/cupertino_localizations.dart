@@ -127,7 +127,7 @@ class _CupertinoLocalizationsDelegate extends LocalizationsDelegate<CupertinoLoc
   const _CupertinoLocalizationsDelegate();
 
   @override
-  bool isSupported(Locale locale) => kSupportedLanguages.contains(locale.languageCode);
+  bool isSupported(Locale locale) => kCupertinoSupportedLanguages.contains(locale.languageCode);
 
   static final Map<Locale, Future<CupertinoLocalizations>> _loadedTranslations = <Locale, Future<CupertinoLocalizations>>{};
 
@@ -149,5 +149,5 @@ class _CupertinoLocalizationsDelegate extends LocalizationsDelegate<CupertinoLoc
   bool shouldReload(_CupertinoLocalizationsDelegate old) => false;
 
   @override
-  String toString() => 'GlobalCupertinoLocalizations.delegate(${kSupportedLanguages.length} locales)';
+  String toString() => 'GlobalCupertinoLocalizations.delegate(${kCupertinoSupportedLanguages.length} locales)';
 }
