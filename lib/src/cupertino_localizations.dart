@@ -139,7 +139,7 @@ class _CupertinoLocalizationsDelegate extends LocalizationsDelegate<CupertinoLoc
 
       assert(locale.toString() == localeName, 'comparing "$locale" to "$localeName"');
 
-      return SynchronousFuture<CupertinoLocalizations>(getCupertinoTranslation(
+      return SynchronousFuture<CupertinoLocalizations>(getCupertinoTranslationLocal(
         locale,
       ));
     });

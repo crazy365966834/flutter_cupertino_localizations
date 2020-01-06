@@ -2668,7 +2668,7 @@ class CupertinoLocalizationZhHantTw extends CupertinoLocalizationZhHant {
 ///
 /// Generally speaking, this method is only intended to be used by
 /// [GlobalCupertinoLocalizations.delegate].
-GlobalCupertinoLocalizations getCupertinoTranslation(
+GlobalCupertinoLocalizations getCupertinoTranslationLocal(
   Locale locale,
 ) {
   switch (locale.languageCode) {
