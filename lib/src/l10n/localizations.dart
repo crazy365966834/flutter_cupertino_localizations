@@ -2486,6 +2486,9 @@ class CupertinoLocalizationZh extends GlobalCupertinoLocalizations {
   CupertinoLocalizationZh({@required Locale locale}) : super(locale: locale);
 
   @override
+  String get todayLabel => "今天";
+
+  @override
   DatePickerDateOrder get datePickerDateOrder => DatePickerDateOrder.ymd;
 
   @override

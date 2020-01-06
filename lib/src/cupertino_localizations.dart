@@ -75,6 +75,9 @@ abstract class GlobalCupertinoLocalizations implements CupertinoLocalizations {
   String get selectAllButtonLabel => _localizations.selectAllButtonLabel;
 
   @override
+  String get todayLabel => "Today";
+
+  @override
   String datePickerMediumDate(DateTime date) {
     return _localizations.formatMediumDate(date);
   }
