@@ -1,6 +1,7 @@
 # flutter_cupertino_localizations
 
-The author is too busy to maintain
+> The author is too busy to maintain
+> 作者太忙停止维护了
 
 provider localization for cupertino.
 just en and zh, because others is not finished yet.
